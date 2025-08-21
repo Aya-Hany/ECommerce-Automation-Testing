@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="nedative">
+    <classes>
+      <class name="CartNegativScenario"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="positve">
+    <classes>
+      <class name="CartHappyScenario"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="search">
+    <classes>
+      <class name="Tests.searchNegativeData"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="review">
+    <classes>
+      <class name="Tests.ReviewNegative"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="quantity">
+    <classes>
+      <class name="Tests.QuantityNegative"/>
+    </classes>
+  </test> <!-- Test -->
+   <test name="login">
+    <classes>
+      <class name="Tests.logInNegativeData"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

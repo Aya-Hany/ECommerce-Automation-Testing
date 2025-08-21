@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ContactUs_Suite]">
+  <test thread-count="5" name="ContactUs_NegativeTests(failed)">
+    <classes>
+      <class name="Tests.NegativeScenario">
+        <methods>
+          <include name="openWebSite"/>
+          <include name="takeScreenShot"/>
+          <include name="closeWebSite"/>
+          <include name="testValidNameAndValidEmail" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Tests.NegativeScenario -->
+    </classes>
+  </test> <!-- ContactUs_NegativeTests(failed) -->
+</suite> <!-- Failed suite [ContactUs_Suite] -->

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+ <test name="ProductCheacks">
+    <classes>
+      <class name="Tests.ProducteHappyScenario"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="ProductQuantityCheck">
+      <classes>
+       <class name="Tests.QuantityPositiv"/> 
+    	  </classes>
+  </test> <!-- Test -->
+  <test name="ProductSearch">
+      <classes>
+       <class name="Tests.searchPoitiveData"/> 
+    	  </classes>
+  </test> <!-- Test -->
+  <test name="Review">
+      <classes>
+       <class name="Tests.ReviewPositive"/> 
+    	  </classes>
+  </test> <!-- Test -->
+  <test name="Login">
+      <classes>
+       <class name="Tests.logInPositiveData"/> 
+    	  </classes>
+  </test> <!-- Test -->
+  <test name="recomendedAdd">
+      <classes>
+       <class name="Tests.recomendedAdd"/> 
+    	  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

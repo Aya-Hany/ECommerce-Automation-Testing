@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+<test name="Home scroll">
+    <classes>
+      <class name="Tests.upArrow"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Register_Happy">
+    <classes>
+      <class name="Tests.RegisterAndCreatAndDeletAccount"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Register_Negative">
+    <classes>
+      <class name="Tests.RegisterNegativeSenario"/>
+    </classes>
+  </test> <!-- Test -->
+ </suite> <!-- Suite -->

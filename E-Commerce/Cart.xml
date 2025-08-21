@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+<test name="remove">
+    <classes>
+      <class name="Tests.RemoveProductFromCart"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="noRegester">
+    <classes>
+      <class name="Tests.Registerbeforecheckout"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="noLogin">
+    <classes>
+      <class name="Tests.LoginBeforeCheckout"/>
+    </classes>
+  </test> <!-- Test -->
+   <test name="Dowenload">
+    <classes>
+      <class name="Tests.Downloadinvoice"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
