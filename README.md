@@ -54,7 +54,7 @@ Project Structure
 bash
 Copy
 Edit
-ECommerce-Automation-Testing/
+ECommerce-Automation-Testing/E-Commerce
 
  ├── pom.xml                # Maven configuration
 
