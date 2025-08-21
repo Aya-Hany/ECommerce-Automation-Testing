@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+  <test name="Psubscription">
+    <classes><!--test subscription botton in home page and cart page-->
+      <class name="Tests.subscription"/>
+    </classes>
+  </test> <!-- Test -->
+   <test name="Nsubscription">
+    <classes><!--test subscription botton in home page and cart page-->
+      <class name="Tests.subscriptionNeative"/>
+    </classes>
+  </test>
+  
+  <test name="API,Testcase Links">
+    <classes><!--test testcase and api links-->
+      <class name="Tests.TextCase_API"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+

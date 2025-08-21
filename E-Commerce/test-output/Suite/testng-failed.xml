@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="remove(failed)">
+    <classes>
+      <class name="Tests.RemoveProductFromCart">
+        <methods>
+          <include name="RemoveProductFromCart"/>
+          <include name="openWebSite"/>
+          <include name="closeWebSite"/>
+          <include name="takeScreenShot"/>
+        </methods>
+      </class> <!-- Tests.RemoveProductFromCart -->
+    </classes>
+  </test> <!-- remove(failed) -->
+  <test thread-count="5" name="Base(failed)">
+    <classes>
+      <class name="Tests.CartHappyScenario">
+        <methods>
+          <include name="openWebSite"/>
+          <include name="takeScreenShot"/>
+          <include name="closeWebSite"/>
+          <include name="testPlaceOrderRegisterWhileCheckout" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- Tests.CartHappyScenario -->
+    </classes>
+  </test> <!-- Base(failed) -->
+  <test thread-count="5" name="noLogin(failed)">
+    <classes>
+      <class name="Tests.LoginBeforeCheckout">
+        <methods>
+          <include name="openWebSite"/>
+          <include name="testPlaceOrderLoginBeforeeCheckout" invocation-numbers="0"/>
+          <include name="closeWebSite"/>
+          <include name="takeScreenShot"/>
+        </methods>
+      </class> <!-- Tests.LoginBeforeCheckout -->
+    </classes>
+  </test> <!-- noLogin(failed) -->
+  <test thread-count="5" name="Dowenload(failed)">
+    <classes>
+      <class name="Tests.Downloadinvoice">
+        <methods>
+          <include name="Downloadinvoice" invocation-numbers="0"/>
+          <include name="openWebSite"/>
+          <include name="takeScreenShot"/>
+          <include name="closeWebSite"/>
+        </methods>
+      </class> <!-- Tests.Downloadinvoice -->
+    </classes>
+  </test> <!-- Dowenload(failed) -->
+</suite> <!-- Failed suite [Suite] -->
